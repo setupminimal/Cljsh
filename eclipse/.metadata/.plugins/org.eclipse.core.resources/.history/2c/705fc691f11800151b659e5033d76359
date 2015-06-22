@@ -1,0 +1,5 @@
+package io.github.setupminimal.glass;
+
+public class RegularEventHandler {
+
+}

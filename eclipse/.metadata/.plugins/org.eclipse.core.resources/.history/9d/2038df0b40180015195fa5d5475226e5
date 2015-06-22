@@ -1,0 +1,7 @@
+package io.github.setupminimal.glass;
+
+import io.github.setupminimal.glass.GlassClojure;
+
+public class Glass {
+
+}

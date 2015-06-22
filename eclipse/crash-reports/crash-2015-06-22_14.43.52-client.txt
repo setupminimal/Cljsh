@@ -1,0 +1,212 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 6/22/15 2:43 PM
+Description: Initializing game
+
+java.lang.IllegalArgumentException: Don't know how to create ISeq from: clojure.lang.Symbol, compiling:(NO_SOURCE_PATH:0:0)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6567)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.access$100(Compiler.java:37)
+	at clojure.lang.Compiler$LetExpr$Parser.parse(Compiler.java:5973)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6560)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6548)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6548)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.access$100(Compiler.java:37)
+	at clojure.lang.Compiler$DefExpr$Parser.parse(Compiler.java:529)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6560)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyze(Compiler.java:6322)
+	at clojure.lang.Compiler$BodyExpr$Parser.parse(Compiler.java:5708)
+	at clojure.lang.Compiler$FnMethod.parse(Compiler.java:5139)
+	at clojure.lang.Compiler$FnExpr.parse(Compiler.java:3751)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6558)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6548)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.access$100(Compiler.java:37)
+	at clojure.lang.Compiler$DefExpr$Parser.parse(Compiler.java:529)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6560)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyze(Compiler.java:6322)
+	at clojure.lang.Compiler.eval(Compiler.java:6623)
+	at clojure.lang.Compiler.eval(Compiler.java:6608)
+	at clojure.lang.Compiler.eval(Compiler.java:6582)
+	at io.github.setupminimal.cljsh.Cljsh.execute(Cljsh.java:45)
+	at io.github.setupminimal.cljsh.Cljsh.onPreInitialization(Cljsh.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:537)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:550)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:248)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:447)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:356)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Don't know how to create ISeq from: clojure.lang.Symbol
+	at clojure.lang.RT.seqFrom(RT.java:505)
+	at clojure.lang.RT.seq(RT.java:486)
+	at clojure.core$seq.invoke(core.clj:133)
+	at clojure.core$map$fn__4207.invoke(core.clj:2479)
+	at clojure.lang.LazySeq.sval(LazySeq.java:42)
+	at clojure.lang.LazySeq.seq(LazySeq.java:60)
+	at clojure.lang.LazySeq.first(LazySeq.java:82)
+	at clojure.lang.RT.first(RT.java:577)
+	at clojure.core$first.invoke(core.clj:55)
+	at clojure.core$get_super_and_interfaces.invoke(core_proxy.clj:246)
+	at clojure.core$proxy.doInvoke(core_proxy.clj:331)
+	at clojure.lang.RestFn.invoke(RestFn.java:470)
+	at clojure.lang.Var.invoke(Var.java:427)
+	at clojure.lang.AFn.applyToHelper(AFn.java:172)
+	at clojure.lang.Var.applyTo(Var.java:532)
+	at clojure.lang.Compiler.macroexpand1(Compiler.java:6468)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6546)
+	... 70 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6567)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.access$100(Compiler.java:37)
+	at clojure.lang.Compiler$LetExpr$Parser.parse(Compiler.java:5973)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6560)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6548)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6548)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.access$100(Compiler.java:37)
+	at clojure.lang.Compiler$DefExpr$Parser.parse(Compiler.java:529)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6560)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyze(Compiler.java:6322)
+	at clojure.lang.Compiler$BodyExpr$Parser.parse(Compiler.java:5708)
+	at clojure.lang.Compiler$FnMethod.parse(Compiler.java:5139)
+	at clojure.lang.Compiler$FnExpr.parse(Compiler.java:3751)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6558)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6548)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.access$100(Compiler.java:37)
+	at clojure.lang.Compiler$DefExpr$Parser.parse(Compiler.java:529)
+	at clojure.lang.Compiler.analyzeSeq(Compiler.java:6560)
+	at clojure.lang.Compiler.analyze(Compiler.java:6361)
+	at clojure.lang.Compiler.analyze(Compiler.java:6322)
+	at clojure.lang.Compiler.eval(Compiler.java:6623)
+	at clojure.lang.Compiler.eval(Compiler.java:6608)
+	at clojure.lang.Compiler.eval(Compiler.java:6582)
+	at io.github.setupminimal.cljsh.Cljsh.execute(Cljsh.java:45)
+	at io.github.setupminimal.cljsh.Cljsh.onPreInitialization(Cljsh.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:537)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:550)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:248)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:447)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:356)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Linux (amd64) version 3.13.0-55-generic
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 108204576 bytes (103 MB) / 418381824 bytes (399 MB) up to 862978048 bytes (823 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.10 FML v8.0.99.99 Minecraft Forge 11.14.3.1450 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCH	Forge{11.14.3.1450} [Minecraft Forge] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCE	cljsh{1.0} [Cljsh] (Cljsh-1.0.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '3.3.0 NVIDIA 331.113' Renderer: 'GeForce 9400M/integrated/SSE2'
+	Launched Version: 1.8
+	LWJGL: 2.9.1
+	OpenGL: GeForce 9400M/integrated/SSE2 GL version 3.3.0 NVIDIA 331.113, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)

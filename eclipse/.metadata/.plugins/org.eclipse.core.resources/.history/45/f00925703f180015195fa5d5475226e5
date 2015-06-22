@@ -1,0 +1,8 @@
+package io.github.setupminimal.glass;
+
+import net.minecraftforge.fml.common.Mod;
+
+@Mod(modid="Glass")
+public class Glass {
+
+}

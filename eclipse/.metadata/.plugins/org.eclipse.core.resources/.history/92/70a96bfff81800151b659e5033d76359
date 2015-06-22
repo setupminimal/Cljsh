@@ -1,0 +1,14 @@
+package io.github.setupminimal.glass;
+
+import net.minecraftforge.fml.common.eventhandler.EventPriority;
+
+public class SubscriptionRecord {
+	
+	public EventPriority priority;
+	//public EventBus x;
+	
+	public SubscriptionRecord() {
+		priority = EventPriority.NORMAL;
+	}
+
+}

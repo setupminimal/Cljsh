@@ -1,0 +1,14 @@
+(ns io.github.setupminimal.glass.Glass
+  );(require net.minecraftforge.fml.common.Mod))
+
+(gen-class 
+  :name 
+  io.github.setupminimal.glass.CljGlass 
+  :prefix glass-
+  :methods [^{static true} [identityTest [] int]])
+
+(defn identityTest []
+  3)
+
+(defn glass-identityTest []
+  (identityTest))

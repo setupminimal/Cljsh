@@ -1,0 +1,11 @@
+package io.github.setupminimal.glass;
+
+import net.minecraftforge.fml.common.Mod;
+import io.github.setupminimal.glass.CljGlass;
+
+@Mod(modid="glass")
+public class Glass {
+	
+	int x = CljGlass.test();
+
+}

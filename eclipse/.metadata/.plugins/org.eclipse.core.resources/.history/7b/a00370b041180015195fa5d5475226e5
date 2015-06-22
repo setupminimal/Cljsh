@@ -1,0 +1,11 @@
+package io.github.setupminimal.glass;
+
+import net.minecraftforge.fml.common.Mod;
+import clojure.lang.IFn;
+
+@Mod(modid="glass")
+public class Glass {
+	
+	IFn fish = Clojure.var("clojure.core", "+");
+
+}

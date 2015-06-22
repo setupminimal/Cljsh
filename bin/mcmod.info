@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cljsh",
+  "name": "Cljsh",
+  "description": "A mod that allows other mods to be written in Clojure.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Delphad000r"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

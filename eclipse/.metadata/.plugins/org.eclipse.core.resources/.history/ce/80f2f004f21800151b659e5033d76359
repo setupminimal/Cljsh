@@ -1,0 +1,82 @@
+package io.github.setupminimal.glass;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
+import net.minecraftforge.fml.common.event.FMLEvent;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.eventhandler.Event;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import clojure.lang.IFn;
+import clojure.lang.RT;
+
+@Mod(modid = Cljash.modid, name = Cljash.name, version = Cljash.version)
+public class Cljash {
+
+	public static final String modid = "cljash";
+	public static final String name = "Cljash";
+	public static final String version = "0.1-SNAPSHOT";
+	
+	@Instance(value = modid)
+	public static Cljash instance;
+	
+	public static final Class initializationEvent = FMLInitializationEvent.class;
+	
+	public HashMap<Class, ArrayList<IFn>> callbacks = new HashMap<Class, ArrayList<IFn>>();
+
+	public Object execute(String contents) {
+		contents = "(do " + contents + ")";
+		Object form = RT.readString(contents);
+		return clojure.lang.Compiler.eval(form);
+	}
+	
+	public void registerEventHandlers() {
+		MinecraftForge.EVENT_BUS.register(new RegularEventHandler());
+	}
+	
+	@EventHandler
+	public void onInitialization(FMLPreInitializationEvent event) {
+		registerEventHandlers();
+		String path = "./mods/cljash-mods/";
+		File directory = new File(path);
+		File[] fileListing = directory.listFiles();
+		for (File file : fileListing) {
+			if (file.isFile() && file.getName().endsWith(".clj")) {
+				String contents = "";
+				try {
+					contents = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+				IFn mainFunction = (IFn) execute(contents);
+				
+				mainFunction.invoke(this);
+			}
+		}
+		
+		System.out.println(callbacks);
+	}
+	
+	public void addCallback(Class eventClass, IFn function) {
+		ArrayList<IFn> calls = callbacks.get(eventClass);
+		if (calls == null) {
+			calls = new ArrayList<IFn>();
+		}
+		calls.add(function);
+		callbacks.put(eventClass, calls);
+	}
+
+}

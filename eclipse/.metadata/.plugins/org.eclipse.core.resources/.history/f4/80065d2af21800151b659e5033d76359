@@ -1,0 +1,19 @@
+package io.github.setupminimal.glass;
+
+import java.util.ArrayList;
+
+import clojure.lang.IFn;
+import net.minecraftforge.fml.common.eventhandler.Event;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+public class RegularEventHandler {
+	
+	@SubscribeEvent
+	public void onEvent(Event event) {
+		ArrayList<IFn> calls = Cljash.instance.callbacks.get(event.getClass());
+		for (IFn fun : calls) {
+			fun.invoke(event);
+		}
+	}
+
+}

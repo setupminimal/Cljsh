@@ -1,0 +1,11 @@
+(ns io.github.setupminimal.glass.Glass
+  (require net.minecraftforge.fml.common.Mod))
+
+(gen-class 
+  :name 
+  ;^{Mod "glass"};{:modid "glass" :name "Glass" :version "0.1-SNAPSHOT"}}
+  io.github.setupminimal.glass.GlassClojure
+  :prefix glass-)
+
+(defn glass-test []
+  "Fish")

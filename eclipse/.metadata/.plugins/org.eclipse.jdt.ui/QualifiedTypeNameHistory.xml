@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="clojure.java.io__init"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
+<fullyQualifiedTypeName name="clojure.lang.Compiler"/>
+<fullyQualifiedTypeName name="clojure.lang.IFn"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.Instance"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLInitializationEvent"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.eventhandler.Event"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLPreInitializationEvent"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="com.google.common.io.Files"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.google.common.eventbus.Subscribe"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.eventhandler.SubscribeEvent"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+</qualifiedTypeNameHistroy>

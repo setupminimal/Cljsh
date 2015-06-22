@@ -1,0 +1,438 @@
+[14:49:19] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[14:49:19] [main/INFO] [FML/]: Forge Mod Loader version 8.99.124.1450 for Minecraft 1.8 loading
+[14:49:19] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.7.0_79, running on Linux:amd64:3.13.0-55-generic, installed at /usr/lib/jvm/java-7-openjdk-amd64/jre
+[14:49:19] [main/DEBUG] [FML/]: Java classpath at launch is /home/daroc/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/start:/home/daroc/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.5.1/e7e53da8bc4ac41fca95ccfacf84f9469dd3147f/clojure-1.5.1.jar:/home/daroc/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/snapshot/20141130/forgeSrc-1.8-11.14.3.1450.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.15.Final/85cad5eb4fc8ae2ecc990dc7c411771a091ded5/netty-all-4.0.15.Final.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.17/893a8c553c0cfc9b6fbdff023747e30152ab09ec/authlib-1.5.17.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.6.1/5655f6fb44aece10e5b3ad7cfee3e6936031c068/realms-1.6.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/f58c5aabcef0e41718a564be9f8e412fff8db847/lwjgl-2.9.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.1/290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e/lwjgl_util-2.9.1.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/4c517eca808522457dd95ee8fc1fbcdbb602efbe/lwjgl-platform-2.9.1-natives-windows.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar:/home/daroc/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/home/daroc/Important/CounterClockwise Workspace/Cljsh/build/libs/Cljsh-1.0.jar
+[14:49:19] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/daroc/.gradle/caches/minecraft/net/minecraft/minecraft_natives/1.8
+[14:49:19] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[14:49:19] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[14:49:19] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[14:49:20] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[14:49:20] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[14:49:20] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[14:49:20] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[14:49:20] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[14:49:20] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/daroc/Important/CounterClockwise Workspace/Cljsh/eclipse/.
+[14:49:20] [main/DEBUG] [FML/]: Discovering coremods
+[14:49:20] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:49:20] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[14:49:20] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[14:49:20] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:49:20] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:49:20] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:49:20] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:49:20] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:49:20] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:49:20] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[14:49:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[14:49:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.MarkerTransformer
+[14:49:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[14:49:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[14:49:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[14:49:20] [main/DEBUG] [FML/]: Injection complete
+[14:49:20] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[14:49:20] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[14:49:20] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[14:49:21] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[14:49:21] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[14:49:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:49:21] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[14:49:21] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[14:49:21] [main/DEBUG] [FML/]: Injection complete
+[14:49:21] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[14:49:21] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[14:49:21] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[14:49:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:49:21] [main/DEBUG] [FML/]: Loaded 60 rules from AccessTransformer config file fml_at.cfg
+[14:49:22] [main/DEBUG] [FML/]: Loaded 120 rules from AccessTransformer config file forge_at.cfg
+[14:49:22] [main/DEBUG] [FML/]: Validating minecraft
+[14:49:23] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[14:49:23] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:49:23] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:49:23] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:49:23] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[14:49:33] [Client thread/INFO] [STDOUT/]: [net.minecraftforge.fml.client.SplashProgress:start:235]: ---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 6/22/15 2:49 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Linux (amd64) version 3.13.0-55-generic
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 106451944 bytes (101 MB) / 227016704 bytes (216 MB) up to 862978048 bytes (823 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '3.3.0 NVIDIA 331.113' Renderer: 'GeForce 9400M/integrated/SSE2'
+[14:49:33] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[14:49:33] [Client thread/INFO] [FML/]: MinecraftForge v11.14.3.1450 Initialized
+[14:49:33] [Client thread/INFO] [FML/]: Replaced 204 ore recipies
+[14:49:34] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[14:49:34] [Client thread/DEBUG] [FML/]: File /home/daroc/Important/CounterClockwise Workspace/Cljsh/eclipse/config/injectedDependencies.json not found. No dependencies injected
+[14:49:34] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[14:49:34] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /home/daroc/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/start, examining for mod candidates
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/daroc/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.5.1/e7e53da8bc4ac41fca95ccfacf84f9469dd3147f/clojure-1.5.1.jar, examining for mod candidates
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/daroc/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/snapshot/20141130/forgeSrc-1.8-11.14.3.1450.jar, examining for mod candidates
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/daroc/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.15.Final/85cad5eb4fc8ae2ecc990dc7c411771a091ded5/netty-all-4.0.15.Final.jar
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/daroc/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar, examining for mod candidates
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.17/893a8c553c0cfc9b6fbdff023747e30152ab09ec/authlib-1.5.17.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.6.1/5655f6fb44aece10e5b3ad7cfee3e6936031c068/realms-1.6.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/f58c5aabcef0e41718a564be9f8e412fff8db847/lwjgl-2.9.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.1/290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e/lwjgl_util-2.9.1.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/4c517eca808522457dd95ee8fc1fbcdbb602efbe/lwjgl-platform-2.9.1-natives-windows.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar
+[14:49:34] [Client thread/TRACE] [FML/]: Skipping known library file /home/daroc/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/daroc/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/daroc/Important/CounterClockwise Workspace/Cljsh/build/libs/Cljsh-1.0.jar, examining for mod candidates
+[14:49:34] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[14:49:34] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[14:49:34] [Client thread/INFO] [FML/]: Searching /home/daroc/Important/CounterClockwise Workspace/Cljsh/eclipse/mods for mods
+[14:49:34] [Client thread/DEBUG] [FML/]: Found a candidate mod directory cljsh-mods
+[14:49:34] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[14:49:34] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[14:49:34] [Client thread/TRACE] [FML/]: Recursing into package net
+[14:49:34] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[14:49:34] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[14:49:34] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[14:49:34] [Client thread/DEBUG] [FML/]: Examining file clojure-1.5.1.jar for potential mods
+[14:49:34] [Client thread/DEBUG] [FML/]: The mod container clojure-1.5.1.jar appears to be missing an mcmod.info file
+[14:49:35] [Client thread/DEBUG] [FML/]: Identified a class clojure.core$for$emit_bind__4600$do_cmod__4611 following modloader naming convention but not directly a BaseMod or currently seen subclass
+[14:49:36] [Client thread/DEBUG] [FML/]: Identified a class clojure.pprint$pll_mod_body following modloader naming convention but not directly a BaseMod or currently seen subclass
+[14:49:37] [Client thread/DEBUG] [FML/]: Identified a class clojure.core$for$emit_bind__4600$do_mod__4606 following modloader naming convention but not directly a BaseMod or currently seen subclass
+[14:49:37] [Client thread/INFO] [FML/]: Attempting to reparse the mod container clojure-1.5.1.jar
+[14:49:37] [Client thread/DEBUG] [FML/]: Examining file clojure-1.5.1.jar for potential mods
+[14:49:37] [Client thread/DEBUG] [FML/]: The mod container clojure-1.5.1.jar appears to be missing an mcmod.info file
+[14:49:37] [Client thread/DEBUG] [FML/]: Identified a class clojure.core$for$emit_bind__4600$do_cmod__4611 following modloader naming convention but not directly a BaseMod or currently seen subclass
+[14:49:37] [Client thread/DEBUG] [FML/]: Identified a class clojure.pprint$pll_mod_body following modloader naming convention but not directly a BaseMod or currently seen subclass
+[14:49:37] [Client thread/DEBUG] [FML/]: Identified a class clojure.core$for$emit_bind__4600$do_mod__4606 following modloader naming convention but not directly a BaseMod or currently seen subclass
+[14:49:38] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.8-11.14.3.1450.jar for potential mods
+[14:49:38] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.8-11.14.3.1450.jar appears to be missing an mcmod.info file
+[14:49:39] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[14:49:39] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[14:49:39] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[14:49:39] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[14:49:39] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[14:49:39] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[14:49:40] [Client thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
+[14:49:40] [Client thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
+[14:49:40] [Client thread/DEBUG] [FML/]: Examining file Cljsh-1.0.jar for potential mods
+[14:49:40] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Cljsh-1.0.jar
+[14:49:40] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (io.github.setupminimal.cljsh.Cljsh) - loading
+[14:49:40] [Client thread/TRACE] [cljsh/]: Parsed dependency info : [] [] []
+[14:49:40] [Client thread/DEBUG] [FML/]: Examining directory cljsh-mods for potential mods
+[14:49:40] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory cljsh-mods
+[14:49:40] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[14:49:40] [Client thread/TRACE] [FML/]: Received a system property request ''
+[14:49:40] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[14:49:40] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[14:49:40] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8-11.14.3.1450.jar [nn_NO, cs_CZ, en_US, pl_PL, ru_RU, zh_TW, pt_PT, ja_JP, br_FR, fi_FI, pt_BR, nl_NL, ro_RO, uk_UA, hu_HU, es_ES, it_IT, he_IL, sl_SI, de_DE, af_ZA, zh_CN, sv_SE, fr_FR, ca_ES, vi_VN, ko_KR, el_GR, sr_SP, nb_NO, no_NO, fa_IR, lt_LT, da_DK, tr_TR, ar_SA, en_US, en_US]
+[14:49:40] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8-11.14.3.1450.jar [nn_NO, cs_CZ, en_US, pl_PL, ru_RU, zh_TW, pt_PT, ja_JP, br_FR, fi_FI, pt_BR, nl_NL, ro_RO, uk_UA, hu_HU, es_ES, it_IT, he_IL, sl_SI, de_DE, af_ZA, zh_CN, sv_SE, fr_FR, ca_ES, vi_VN, ko_KR, el_GR, sr_SP, nb_NO, no_NO, fa_IR, lt_LT, da_DK, tr_TR, ar_SA, en_US, en_US]
+[14:49:40] [Client thread/DEBUG] [cljsh/]: Enabling mod cljsh
+[14:49:40] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[14:49:40] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[14:49:40] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[14:49:40] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[14:49:40] [Client thread/DEBUG] [FML/]: Mod sorting data
+[14:49:40] [Client thread/DEBUG] [FML/]: 	cljsh(Cljsh:1.0): Cljsh-1.0.jar ()
+[14:49:40] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[14:49:40] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[14:49:40] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[14:49:40] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[14:49:40] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[14:49:40] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[14:49:40] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, cljsh] at CLIENT
+[14:49:40] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, cljsh] at SERVER
+[14:49:41] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[14:49:41] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[14:49:41] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[14:49:41] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[14:49:41] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.14.3.1450)
+[14:49:41] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[14:49:41] [Client thread/TRACE] [cljsh/cljsh]: Sending event FMLConstructionEvent to mod cljsh
+[14:49:41] [Client thread/TRACE] [FML/cljsh]: Mod cljsh is using network checker : Accepting version 1.0
+[14:49:41] [Client thread/TRACE] [FML/cljsh]: Testing mod cljsh to verify it accepts its own version in a remote connection
+[14:49:41] [Client thread/TRACE] [FML/cljsh]: The mod cljsh accepts its own version (1.0)
+[14:49:41] [Client thread/DEBUG] [FML/cljsh]: Attempting to inject @SidedProxy classes into cljsh
+[14:49:41] [Client thread/TRACE] [cljsh/cljsh]: Sent event FMLConstructionEvent to mod cljsh
+[14:49:41] [Client thread/DEBUG] [FML/]: Mod signature data
+[14:49:41] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[14:49:41] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[14:49:41] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[14:49:41] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.8-11.14.3.1450.jar
+[14:49:41] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	11.14.3.1450)	forgeSrc-1.8-11.14.3.1450.jar
+[14:49:41] [Client thread/DEBUG] [FML/]: 		cljsh	(Cljsh	1.0)	Cljsh-1.0.jar
+[14:49:41] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[14:49:41] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[14:49:41] [Client thread/DEBUG] [Cljsh/]: Mod Cljsh is missing a pack.mcmeta file, substituting a dummy one
+[14:49:41] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[14:49:41] [Client thread/INFO] [FML/]: Found 384 ObjectHolder annotations
+[14:49:41] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[14:49:41] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[14:49:41] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[14:49:41] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[14:49:41] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[14:49:41] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[14:49:41] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[14:49:41] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[14:49:41] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[14:49:41] [Client thread/TRACE] [cljsh/cljsh]: Sending event FMLPreInitializationEvent to mod cljsh
+[14:49:47] [Client thread/INFO] [cljsh/cljsh]: Cljsh sucsessfully loaded hello.mod.clj
+[14:49:47] [Client thread/INFO] [cljsh/cljsh]: Cljsh sucsessfully loaded example.mod.clj
+[14:49:47] [Client thread/TRACE] [cljsh/cljsh]: Sent event FMLPreInitializationEvent to mod cljsh
+[14:49:47] [Client thread/INFO] [FML/]: Applying holder lookups
+[14:49:47] [Client thread/INFO] [FML/]: Holder lookups applied
+[14:49:47] [Client thread/INFO] [FML/]: Injecting itemstacks
+[14:49:47] [Client thread/INFO] [FML/]: Itemstack injection complete
+[14:49:48] [Client thread/INFO] [STDOUT/]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[14:49:57] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[14:49:57] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[14:49:57] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[14:49:57] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[14:49:57] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[14:49:57] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[14:49:57] [Client thread/TRACE] [cljsh/cljsh]: Sending event FMLInitializationEvent to mod cljsh
+[14:49:57] [Client thread/TRACE] [cljsh/cljsh]: Sent event FMLInitializationEvent to mod cljsh
+[14:49:57] [Client thread/ERROR] [FML/]: Fatal errors were detected during the transition from INITIALIZATION to POSTINITIALIZATION. Loading cannot continue
+[14:49:57] [Client thread/ERROR] [FML/]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHI	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHI	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCHI	Forge{11.14.3.1450} [Minecraft Forge] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCHE	cljsh{1.0} [Cljsh] (Cljsh-1.0.jar) 
+[14:49:57] [Client thread/ERROR] [FML/]: The following problems were captured during this phase
+[14:49:57] [Client thread/ERROR] [FML/]: Caught exception from cljsh
+clojure.lang.ArityException: Wrong number of args (1) passed to: core$registerExampleItem
+	at clojure.lang.AFn.throwArity(AFn.java:437) ~[clojure-1.5.1.jar:?]
+	at clojure.lang.AFn.invoke(AFn.java:39) ~[clojure-1.5.1.jar:?]
+	at io.github.setupminimal.cljsh.Cljsh.onInitialization(Cljsh.java:77) ~[Cljsh-1.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:537) ~[forgeSrc-1.8-11.14.3.1450.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[forgeSrc-1.8-11.14.3.1450.jar:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[forgeSrc-1.8-11.14.3.1450.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:731) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:315) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:529) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:356) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:117) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[14:49:57] [Client thread/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:663]: ---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 6/22/15 2:49 PM
+Description: Initializing game
+
+clojure.lang.ArityException: Wrong number of args (1) passed to: core$registerExampleItem
+	at clojure.lang.AFn.throwArity(AFn.java:437)
+	at clojure.lang.AFn.invoke(AFn.java:39)
+	at io.github.setupminimal.cljsh.Cljsh.onInitialization(Cljsh.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:537)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:731)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:315)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:529)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:356)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at clojure.lang.AFn.throwArity(AFn.java:437)
+	at clojure.lang.AFn.invoke(AFn.java:39)
+	at io.github.setupminimal.cljsh.Cljsh.onInitialization(Cljsh.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:537)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:731)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:315)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:529)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:356)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Linux (amd64) version 3.13.0-55-generic
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 160745616 bytes (153 MB) / 449839104 bytes (429 MB) up to 862978048 bytes (823 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.10 FML v8.0.99.99 Minecraft Forge 11.14.3.1450 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHI	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHI	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCHI	Forge{11.14.3.1450} [Minecraft Forge] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCHE	cljsh{1.0} [Cljsh] (Cljsh-1.0.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '3.3.0 NVIDIA 331.113' Renderer: 'GeForce 9400M/integrated/SSE2'
+	Launched Version: 1.8
+	LWJGL: 2.9.1
+	OpenGL: GeForce 9400M/integrated/SSE2 GL version 3.3.0 NVIDIA 331.113, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+[14:49:57] [Client thread/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:663]: #@!@# Game crashed! Crash report saved to: #@!@# /home/daroc/Important/CounterClockwise Workspace/Cljsh/eclipse/./crash-reports/crash-2015-06-22_14.49.57-client.txt

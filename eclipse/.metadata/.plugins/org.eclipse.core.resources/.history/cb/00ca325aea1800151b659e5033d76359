@@ -1,0 +1,10 @@
+package io.github.setupminimal.glass;
+
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+
+public class EventTypes {
+	
+	public static final Class fmlInitializationEvent = 
+			FMLInitializationEvent.class;
+
+}

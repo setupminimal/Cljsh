@@ -1,0 +1,9 @@
+(ns io.github.setupminimal.glass.Glass
+  (require net.minecraftforge.fml.common.Mod))
+
+(gen-class 
+  :name io.github.setupminimal.glass.CljGlass 
+  :prefix glass-)
+
+(defn glass-test []
+  3)
