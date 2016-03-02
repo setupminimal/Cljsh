@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
         maven {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
@@ -15,12 +15,12 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.0-SNAPSHOT'
         classpath "com.netflix.nebula:nebula-clojure-plugin:1.12.2"
     }
 }
 
-apply plugin: 'forge'
+apply plugin: 'net.minecraftforge.gradle.forge'
 apply plugin: 'nebula-clojure'
 
 version = "1.0"
@@ -28,7 +28,7 @@ group= "io.github.setupminimal.cljsh" // http://maven.apache.org/guides/mini/gui
 archivesBaseName = "Cljsh"
 
 minecraft {
-    version = "1.8-11.14.3.1450"
+    version = "1.8.9-11.15.1.1722"
     runDir = "eclipse"
     
     // the mappings can be changed at any time, and must be in the following format.
@@ -36,7 +36,7 @@ minecraft {
     // stable_#            stables are built at the discretion of the MCP team.
     // Use non-default mappings at your own risk. they may not allways work.
     // simply re-run your setup task after changing the mappings to update your workspace.
-    mappings = "snapshot_20141130"
+    mappings = "snapshot_20160301"
 }
 
 dependencies {
@@ -49,7 +49,7 @@ dependencies {
     //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
     //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
     
-    compile 'org.clojure:clojure:1.5.1'
+    compile 'org.clojure:clojure:1.8.0'
 
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
